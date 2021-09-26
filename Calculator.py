@@ -1,5 +1,4 @@
 class Calculator:
-
     def __init__(self):
         raise NotImplementedError()
 
@@ -19,7 +18,6 @@ class Calculator:
 
 
 class Constant(Calculator):
-
     def __init__(self, value):
         self.__value = value
 
@@ -133,7 +131,6 @@ class Parser:
 
 class Evaluator:
     SYMBOLS = ['+', '-', '*', '/', '^', '(', ')']
-
     def __init__(self):
         self.parser = Parser()
 
