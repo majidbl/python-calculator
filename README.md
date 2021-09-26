@@ -3,7 +3,7 @@
 ## *Usage* :
 ### *multiply and division operation* 
 ```bash
- >> 9 *2
+ >> 9*2
      18
  >> 30/2
      15
