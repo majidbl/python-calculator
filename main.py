@@ -6,7 +6,7 @@ def calculator():
     evaluator = Evaluator()
     while True:
         try:
-            line = input('>>> ')
+            line = input('>> ')
             if line.strip() == 'quit':
                 return
             result = evaluator.eval(line)
